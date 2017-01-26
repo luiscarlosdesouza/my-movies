@@ -17,3 +17,10 @@ movies = [
 movies.each do |movie|
   Movie.create!(movie)
 end
+
+Actor.create!(name:"Angelina Jolie", gender:"female")
+Actor.create!(name:"Will Smith", gender:"male")
+Actor.create!(name:"Will Smith", gender:"male")
+Actor.create!(name:"Margot Robbie", gender:"female")
+Director.create!(name:"Quentin Tarantino", gender:"male")
+Director.create!(name:"Mel Gibson", gender:"male")
