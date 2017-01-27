@@ -3,6 +3,7 @@
 <table id="movies">
   <thead>
     <tr>
+    
       <th>Title</th>
       <th>Release</th>
     </tr>
@@ -10,9 +11,10 @@
   <tbody>
     <% @movies.each do |movie| %>
       <tr>
+
         <td><%= link_to(movie.title, "/movies/#{movie.id}") %></td>
         <td><%= movie.release_date %></td>
-        
+
       </tr>
     <% end %>
 
