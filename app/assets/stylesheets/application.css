@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  */
+<<<<<<< HEAD
  /* Simple CSS styling for RottenPotatoes app */
  /* Add these lines to app/assets/stylesheets/application.css */
 
@@ -77,3 +78,5 @@
    font-weight: bold;
    color: maroon;
  }
+=======
+>>>>>>> f6b62063edfe2cf2de17563260188140b405df69

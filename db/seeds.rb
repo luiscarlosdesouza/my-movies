@@ -5,6 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+<<<<<<< HEAD
 
 
 movies = [
@@ -24,3 +25,5 @@ Actor.create!(name:"Will Smith", gender:"male")
 Actor.create!(name:"Margot Robbie", gender:"female")
 Director.create!(name:"Quentin Tarantino", gender:"male")
 Director.create!(name:"Mel Gibson", gender:"male")
+=======
+>>>>>>> f6b62063edfe2cf2de17563260188140b405df69
